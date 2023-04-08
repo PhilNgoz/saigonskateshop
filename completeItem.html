@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIGON SKATESHOP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+
+            <div class="grid ">
+               
+                <!-- HEADER SEARCH -->
+                <div class="header-search">
+                    <div class="header__logo">
+                        <a href="home.html" class="header__logo--link">
+                            <img src="//bizweb.dktcdn.net/100/345/407/themes/706150/assets/logo.png?1675333329073"
+                                alt="" class="header__logo-img">
+
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search--input--wrap">
+
+                            <input type="text" class="header__search--input" placeholder="Tìm kiếm sản phẩm...">
+                            <!-- Search history -->
+                            <div class="header__search--history">
+                                <h3 class="header__search--history--heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search--history--list">
+                                    <li class="header__search--history--item">
+                                        <a href="">Áo Primitive phiên bản limited</a>
+                                    </li>
+
+                                    <li class="header__search--history--item">
+                                        <a href="">Trục thunder venture size 139</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn--icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <!-- cart empty layout header__cart--list--empty -->
+                    <div class="header__cart first-child">
+                        <div class="header__cart-nowrap">
+                            <i class="header__cart--icon fa-sharp fa-solid fa-location-dot"></i>
+
+                        </div>
+                        <div class="header-cart-info">
+                            <a target="_blank" href="https://www.google.com/maps/place/Saigon+Skateshop/@10.7678843,106.6913933,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3f5445231b:0xdfb28c8194ff6738!8m2!3d10.767879!4d106.693582!16s%2Fg%2F11xdmld4d">
+                                <p>Địa chỉ</p>
+                                <span>Xem bản đồ</span>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="header__cart">
+                        <div class="header__cart-nowrap">
+                            <i class="header__cart--icon fa-solid fa-headphones"></i>
+
+                        </div>
+                        <div class="header-cart-info">
+
+                            <p>Hỗ trợ</p>
+                            <span>0373557540</span>
+                        </div>
+                    </div>
+
+                    <div class="header__cart">
+                        <div class="header__cart-nowrap">
+                            <i class="header__cart--icon fa-solid fa-user"></i>
+
+                        </div>
+                        <div class="header-cart-info">
+
+                            <p>Tài khoản</p>
+                            <span>Đăng nhập /  Đăng ký</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="header__cart last-child">
+                        <div class="header__cart-wrap">
+
+                           <a href="cart.html">
+                            <i class=" header__cart--icon--logo fa-sharp fa-solid fa-cart-shopping"></i>
+                           </a>
+
+                            <div class="header__cart--list">
+                                <img class="header__cart--empty--img" src="assets/img/empty_cart3.jpg" alt="">
+                                <span class="header__cart--empty--msg">Chưa có sản phẩm</span>
+                                <!-- header__cart has product -->
+                                <h3 class="header__cart--heading">Sản phẩm đã thêm vào</h3>
+                                <ul class="header__cart--list--item">
+                                    <li class="header__cart--item">
+                                        <img src="https://bizweb.dktcdn.net/thumb/grande/100/345/407/products/vm001-lo-suede-choco-brown-6.jpg"
+                                            alt="" class="cart__list--img">
+                                        <div class="header__cart--item--info">
+                                            <div class="header__cart--item--head">
+                                                <h4 class="header__cart--item--name"> Last Resort Skateshoes</h4>
+                                                <div class="header__cart--item--price--wrap">
+                                                    <span class="header__cart--item--price">890.000đ</span>
+                                                    <span class="header__cart--item--multi">x</span>
+                                                    <span class="header__cart--item--quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart--item--body">
+                                                <span class="header__cart--item--desc">
+                                                    Type: Skate accessories
+                                                </span>
+                                                <span class="header__cart--item--remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart--item">
+                                        <img src="https://bizweb.dktcdn.net/100/345/407/products/img-3842.jpg?v=1650630121267"
+                                            alt="" class="cart__list--img">
+                                        <div class="header__cart--item--info">
+                                            <div class="header__cart--item--head">
+                                                <h4 class="header__cart--item--name"> Pentagon compelete set</h4>
+                                                <div class="header__cart--item--price--wrap">
+                                                    <span class="header__cart--item--price">2.900.000đ</span>
+                                                    <span class="header__cart--item--multi">x</span>
+                                                    <span class="header__cart--item--quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart--item--body">
+                                                <span class="header__cart--item--desc">
+                                                    Type: Skateboard compelete
+                                                </span>
+                                                <span class="header__cart--item--remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart--item">
+                                        <img src="//bizweb.dktcdn.net/thumb/medium/100/345/407/products/33132506-850-k5-90s-dlk-standard-trucks-krux-3.jpg?v=1653985171000"
+                                            alt="" class="cart__list--img">
+                                        <div class="header__cart--item--info">
+                                            <div class="header__cart--item--head">
+                                                <h4 class="header__cart--item--name">Indipendent truck 139</h4>
+                                                <div class="header__cart--item--price--wrap">
+                                                    <span class="header__cart--item--price">1.290.000đ</span>
+                                                    <span class="header__cart--item--multi">x</span>
+                                                    <span class="header__cart--item--quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart--item--body">
+                                                <span class="header__cart--item--desc">
+                                                    Type: Skateboard part
+                                                </span>
+                                                <span class="header__cart--item--remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                                <a href="cart.html">
+                                    <button class="header__cart--view--cart btn btn--primary">Xem giỏ hàng</button>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="header-cart-info">
+
+                          <a href="cart.html">
+                            <p>Giỏ hàng</p>
+                            <span>(3) Sản phẩm</span>
+                          </a>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </header>
+        <div class="sub-menu">
+            <a class="submenu-item" href="home.html">HOME
+                <span>|</span>
+            </a>
+            <div class="submenu-item-wrap">
+                <a class="submenu-item" href="">SKATEBOARDS
+                    <i class="fa-solid fa-chevron-down"></i>
+                    
+                </a>
+                <ul class="submenu-item-list">
+                    <a href="complete.html">COMPLETE</a>
+                    <a href="skatepart.html">SKATE PARTS</a>
+                </ul>
+            </div>
+            <span class="margin-bug">|</span>
+            <a class="submenu-item" href="clothing.html">
+                
+                CLOTHING
+                <span>|</span>
+            </a>
+            <a class="submenu-item" href="accessories.html">ACCESSORIES
+                <span>|</span>
+            </a>
+            <a class="submenu-item" href="introduction.html">BLOG
+                
+                <span>|</span>
+            </a>
+            <div class="submenu-item-wrap">
+                <a class="submenu-item" href="">CUSTOMER SERVICES
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <span>|</span>
+                </a>
+                <ul class="submenu-item-list">
+                    <a href="help.html">ĐIỀU KHOẢN</a>
+                    <a href="help2.html">CHÍNH SÁCH ĐỔI TRẢ</a>
+                </ul>
+            </div>
+            <a class="submenu-item" href="">SALE</a>
+        </div>
+        <div class="breadcrum-section">
+            <a href="home.html">Home</a>
+            <i>/</i>
+            <a href="complete.html">Complete Set</a>
+            <i>/</i>
+            <a href="#">Hatched Cruiser</a>
+           
+        </div>
+       
+
+        <div class="product-section">
+           <div class="product-container">
+            <div class="product-main">
+                <img class="img-feature" src="https://images.boardriders.com/global/element-products/all/default/hi-res/alyxw00113_element,p_ast_frt1.jpg" alt="">
+                <div class="control prev"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="control next"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+            <div class="list-image">
+                   <div><img src="https://images.boardriders.com/global/element-products/all/default/hi-res/alyxw00113_element,p_ast_frt1.jpg" alt=""></div> 
+                   <div><img src="https://images.boardriders.com/global/element-products/all/default/hi-res/alyxw00113_element,f_ast_frt1.jpg" alt=""></div> 
+                   <div><img src="https://images.boardriders.com/global/element-products/all/default/hi-res/alyxw00113_element,f_ast_bck1.jpg" alt=""></div> 
+                   
+            </div>
+            
+           </div>
+        <div class="product-descript">
+            <h1 class="product-title">
+              HATCHED CRUISER COMPLETE SKATEBOARD
+            </h1>
+            <div class="product-title_desc">
+               <span>Thương hiệu :</span>  HATCHED
+            </div>
+            <div class="product-price">
+                2.400.000đ
+            </div>
+            <div class="description">
+                Thông tin sản phẩm hiện đang được cập nhật
+            </div>
+            <div class="size-heading">
+                Size
+            </div>
+            <div class="size-label">
+                <div class="size-label_item">8.0</div>
+                <div class="size-label_item">8.25</div>
+                <div class="size-label_item">8.5</div>
+            </div>
+            <div class="product-cart-wrap">
+                <div class="product-quantity">
+                    <i class="fa-solid fa-caret-left"></i>
+                    1
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+                <button class="addto-cart-btn">
+                    Thêm vào giỏ hàng
+                </button>
+                <div class="wish-list-btn">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="social-sharing">
+                <span>Chia sẻ : </span>
+                <div class="social-sharing-item">
+                    <button class="social-sharing-button facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        Facebook</button>
+                    <button class="social-sharing-button twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                        Twitter</button>
+                    <button class="social-sharing-button email">
+                        <i class="fa-regular fa-envelope"></i>
+                        Email</button>
+                    <button class="social-sharing-button more">
+                        <i class="fa-regular fa-plus"></i>
+                        Thêm...</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <footer class="footer">
+
+              <div class="footer-container">
+                <div class="footer-container_wrap">
+                    <div class="footer-left">
+                        <a class="footer-logo" href="home.html">
+                         <img src="https://bizweb.dktcdn.net/100/345/407/themes/706150/assets/logo-footer.png?1675333329073" alt="">
+                        </a>
+                        <div class="footer-logo_info">
+                            Nhờ sự ủng hộ mạnh mẽ từ những người có cùng đam mê khắp nơi trên cả nước, chúng tôi tự hào là một trong những Skateshops chuyên nghiệp nhất Việt Nam ở thời điểm hiện tại.
+                        </div>
+                        <div class="footer-logo_follow">
+                            Theo dõi
+                        </div>
+                        <div class="footer-logo_social">
+                            <li class="social-icon">
+                                <a href="" class="">
+                                    <i class="social-icon-img social-icon_facebook-img  fa-brands fa-facebook" ></i>
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="" class="">
+                                    <i class="social-icon-img social-icon_insta-img fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="" class="">
+                                    <i class="social-icon-img social-icon_ytb-img fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="" class="">
+                                    <i class="social-icon-img social-icon_tiktok-img fa-brands fa-tiktok"></i>
+                                </a>
+                            </li>
+    
+                        </div>
+                    </div>
+                    <div class="footer-center">
+                        <h3 class="fanpage"> fanpage</h3>
+                        <div class="fanpage-box">
+                            <div class="blur">
+                                <a  href="https://www.facebook.com/profile.php?id=100053507712992">
+                                    <img class="fanpage-box_logo" src="https://scontent.fsgn19-1.fna.fbcdn.net/v/t39.30808-1/325592770_1274685673111517_8566343902982167548_n.png?stp=cp0_dst-png_p80x80&_nc_cat=108&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=KuQq5cXkwMIAX-0kulV&_nc_ht=scontent.fsgn19-1.fna&oh=00_AfCQKxm-9QzQg0uCxBrDCjwVZfHng8AIKN7RxVEc8IFiPQ&oe=642F56C4" alt="">
+                                    <div class="fanpage-info">
+                                    <h1 class="fanpage-box-name">Saigon Skateshop</h1>
+                                    <h1 class="fanpage-box-fl" >149.594 người theo dõi</h1>
+                                    </div>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100053507712992">
+                                    <button class="fanpage-button-1" >
+                                        <i class="fanpage-button-fb fa-brands fa-square-facebook"></i>
+                                       Đã theo dõi</button>
+                                </a>
+                               
+                                <a href="https://www.facebook.com/profile.php?id=100053507712992">
+                                    <button class="fanpage-button-2">
+                                        <i class="fa-sharp fa-solid fa-share"></i>
+                                        Chia sẻ</button>
+                                </a>
+                           
+
+                            </div>
+                         
+                        </div>
+                    </div>
+
+                    <div class="footer-right">
+                        <div class=" visit">địa chỉ cửa hàng</div>
+                        <div class=" address-label">Địa Chỉ</div>
+                        <div class=" address-info">221 Đề Thám, Phường Phạm Ngũ Lão, Quận 1, TP. HCM, Việt Nam.</div>
+                        <div class=" support-label">Hỗ trợ & Tư vấn</div>
+                        <div class=" support-info">0373557540</div>
+                        <div class=" email-label">Email</div>
+                        <div class=" email-info">l1nhhai1@gmail.com</div>
+                    </div>
+                  </div>
+                </div>
+
+            
+        </footer>
+       <script src="start.js"></script>
+        <script type="text/javascript"></script>
+    </div>
+    <!-- modal layout -->
+     <!-- <div class="modal">
+        <div class="modal__overlay">
+        </div>
+        <div class="modal__body"> --> 
+    <!-- register form -->
+     <!-- <div class="authen-form">
+                    <div class="authen-form__container">
+                        <div class="authen-form__header">
+                            <h3 class="authen-form_heading"> Đăng ký</h3>
+                            <span class="authen-form__switch-btn">Đăng Nhập</span>
+                        </div>
+                        <div class="authen-form__form">
+                            <div class="authen-form__group">
+                                <input type="text" class="authen-form__input " placeholder="Nhập Email của bạn">
+                            </div>
+    
+                            <div class="authen-form__group">
+                                <input type="text" class="authen-form__input " placeholder="Nhập Password">
+                            </div>
+    
+                            <div class="authen-form__group">
+                                <input type="text" class="authen-form__input " placeholder="Nhập lại Password">
+                            </div>
+                            <div class="authen-form__aside">
+                                <p class="authen-form__policy--text">
+                                    Bằng việc đăng kí, bạn đã đồng ý với BtuSkateshop về
+                                    <a href="" class="authen-form__text--link">Điều khoản dịch vụ</a> &
+                                    <a href="" class="authen-form__text--link">Chính sách bảo mật </a>
+                                </p>
+                            </div>
+                            <div class="authen-form__controls">
+                                <button class="btn authen-form__controls--back btn--normal">TRỞ LẠI</button>
+                                <button class="btn btn--primary btn--disabled">ĐĂNG KÝ</button>
+                            </div>
+
+                    </div>
+
+                </div>
+
+                <div class="authen-form__socials">
+                    <a href="" class="authen-form__socials--facebook btn btn--size-s btn__with-icon">
+                        <i class="authen-form__socials--icon fa-brands fa-square-facebook"></i>
+                        <span class="authen-form__socials--label">Kết nối với Facebook</span>
+                    </a>
+
+                    <a href="" class="authen-form__socials--google btn btn--size-s btn__with-icon">
+                        <i class="authen-form__socials--icon fa-brands fa-google"></i>
+                        <span class="authen-form__socials--label">Kết nối với Google</span>
+                    </a>
+                </div>
+                
+            
+        </div> --> 
+    <!-- Login Form form -->
+    <!-- <div class="authen-form">
+                            <div class="authen-form__container">
+                                <div class="authen-form__header">
+                                    <h3 class="authen-form_heading"> Đăng nhập</h3>
+                                    <span class="authen-form__switch-btn">Đăng ký </span>
+                                </div>
+                                <div class="authen-form__form">
+                                    <div class="authen-form__group">
+                                        <input type="text" class="authen-form__input " placeholder="Nhập Email của bạn">
+                                    </div>
+            
+                                    <div class="authen-form__group">
+                                        <input type="text" class="authen-form__input " placeholder="Nhập Password">
+                                    </div>
+            
+
+                                    <div class="authen-form__aside">
+                                        <div class="authen-form__help">
+                                            <a href="" class="authen-form__link authen-form__link--fgpass">Quên mật khẩu</a>
+                                            <span class="authen-form__help--separate"></span>
+                                            <a href="" class="authen-form__link authen-form__link--help">Cần trợ giúp ?</a>
+                                        </div>
+                                    </div>
+                                    <div class="authen-form__controls">
+                                        <button class="btn authen-form__controls--back btn--normal">TRỞ LẠI</button>
+                                        <button class="btn btn--primary btn--disabled">ĐĂNG NHẬP</button>
+                                    </div>
+        
+                            </div>
+        
+                        </div>
+        
+                        <div class="authen-form__socials">
+                            <a href="" class="authen-form__socials--facebook btn btn--size-s btn__with-icon">
+                                <i class="authen-form__socials--icon fa-brands fa-square-facebook"></i>
+                                <span class="authen-form__socials--label">Đăng nhập với Facebook</span>
+                            </a>
+        
+                            <a href="" class="authen-form__socials--google btn btn--size-s btn__with-icon">
+                                <i class="authen-form__socials--icon fa-brands fa-google"></i>
+                                <span class="authen-form__socials--label">Đăng Nhập với Google</span>
+                            </a>
+                        </div>
+                        
+                    
+                </div>   -->
+    </div>
+</body>
+
+</html>

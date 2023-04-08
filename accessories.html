@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIGON SKATESHOP</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+
+            <div class="grid ">
+               
+                <!-- HEADER SEARCH -->
+                <div class="header-search">
+                    <div class="header__logo">
+                        <a href="home.html" class="header__logo--link">
+                            <img src="//bizweb.dktcdn.net/100/345/407/themes/706150/assets/logo.png?1675333329073"
+                                alt="" class="header__logo-img">
+
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search--input--wrap">
+
+                            <input type="text" class="header__search--input" placeholder="Tìm kiếm sản phẩm...">
+                            <!-- Search history -->
+                            <div class="header__search--history">
+                                <h3 class="header__search--history--heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search--history--list">
+                                    <li class="header__search--history--item">
+                                        <a href="">Áo Primitive phiên bản limited</a>
+                                    </li>
+
+                                    <li class="header__search--history--item">
+                                        <a href="">Trục thunder venture size 139</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn--icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <!-- cart empty layout header__cart--list--empty -->
+                    <div class="header__cart first-child">
+                        <div class="header__cart-nowrap">
+                            <i class="header__cart--icon fa-sharp fa-solid fa-location-dot"></i>
+
+                        </div>
+                        <div class="header-cart-info">
+                            <a target="_blank" href="https://www.google.com/maps/place/Saigon+Skateshop/@10.7678843,106.6913933,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3f5445231b:0xdfb28c8194ff6738!8m2!3d10.767879!4d106.693582!16s%2Fg%2F11xdmld4d">
+                                <p>Địa chỉ</p>
+                                <span>Xem bản đồ</span>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="header__cart">
+                        <div class="header__cart-nowrap">
+                            <i class="header__cart--icon fa-solid fa-headphones"></i>
+
+                        </div>
+                        <div class="header-cart-info">
+
+                            <p>Hỗ trợ</p>
+                            <span>0373557540</span>
+                        </div>
+                    </div>
+
+                    <div class="header__cart">
+                        <div class="header__cart-nowrap">
+                            <i class="header__cart--icon fa-solid fa-user"></i>
+
+                        </div>
+                        <div class="header-cart-info">
+
+                            <p>Tài khoản</p>
+                            <span>Đăng nhập /  Đăng ký</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="header__cart last-child">
+                        <div class="header__cart-wrap">
+                            <a href="cart.html">
+                                <i class=" header__cart--icon--logo fa-sharp fa-solid fa-cart-shopping"></i>
+                            </a>
+                            
+
+                            <div class="header__cart--list">
+                                <img class="header__cart--empty--img" src="assets/img/empty_cart3.jpg" alt="">
+                                <span class="header__cart--empty--msg">Chưa có sản phẩm</span>
+                                <!-- header__cart has product -->
+                                <h3 class="header__cart--heading">Sản phẩm đã thêm vào</h3>
+                                <ul class="header__cart--list--item">
+                                    <li class="header__cart--item">
+                                        <img src="https://bizweb.dktcdn.net/thumb/grande/100/345/407/products/vm001-lo-suede-choco-brown-6.jpg"
+                                            alt="" class="cart__list--img">
+                                        <div class="header__cart--item--info">
+                                            <div class="header__cart--item--head">
+                                                <h4 class="header__cart--item--name"> Last Resort Skateshoes</h4>
+                                                <div class="header__cart--item--price--wrap">
+                                                    <span class="header__cart--item--price">890.000đ</span>
+                                                    <span class="header__cart--item--multi">x</span>
+                                                    <span class="header__cart--item--quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart--item--body">
+                                                <span class="header__cart--item--desc">
+                                                    Type: Skate accessories
+                                                </span>
+                                                <span class="header__cart--item--remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart--item">
+                                        <img src="https://bizweb.dktcdn.net/100/345/407/products/img-3842.jpg?v=1650630121267"
+                                            alt="" class="cart__list--img">
+                                        <div class="header__cart--item--info">
+                                            <div class="header__cart--item--head">
+                                                <h4 class="header__cart--item--name"> Pentagon compelete set</h4>
+                                                <div class="header__cart--item--price--wrap">
+                                                    <span class="header__cart--item--price">2.900.000đ</span>
+                                                    <span class="header__cart--item--multi">x</span>
+                                                    <span class="header__cart--item--quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart--item--body">
+                                                <span class="header__cart--item--desc">
+                                                    Type: Skateboard compelete
+                                                </span>
+                                                <span class="header__cart--item--remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart--item">
+                                        <img src="//bizweb.dktcdn.net/thumb/medium/100/345/407/products/33132506-850-k5-90s-dlk-standard-trucks-krux-3.jpg?v=1653985171000"
+                                            alt="" class="cart__list--img">
+                                        <div class="header__cart--item--info">
+                                            <div class="header__cart--item--head">
+                                                <h4 class="header__cart--item--name">Indipendent truck 139</h4>
+                                                <div class="header__cart--item--price--wrap">
+                                                    <span class="header__cart--item--price">1.290.000đ</span>
+                                                    <span class="header__cart--item--multi">x</span>
+                                                    <span class="header__cart--item--quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart--item--body">
+                                                <span class="header__cart--item--desc">
+                                                    Type: Skateboard part
+                                                </span>
+                                                <span class="header__cart--item--remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                                <a href="cart.html">
+                                    <button class="header__cart--view--cart btn btn--primary">Xem giỏ hàng</button>
+                                </a>
+                                
+                            </div>
+
+                        </div>
+                        <div class="header-cart-info">
+                            <a href="cart.html">
+                                <p>Giỏ hàng</p>
+                                <span>(3) Sản phẩm</span>
+                            </a>
+                           
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </header>
+        <div class="sub-menu">
+            <a class="submenu-item" href="home.html">HOME
+                <span>|</span>
+            </a>
+            <div class="submenu-item-wrap">
+                <a class="submenu-item" href="">SKATEBOARDS
+                    <i class="fa-solid fa-chevron-down"></i>
+                    
+                </a>
+                <ul class="submenu-item-list">
+                    <a href="complete.html">COMPLETE</a>
+                    <a href="skatepart.html">SKATE PARTS</a>
+                </ul>
+            </div>
+            <span class="margin-bug">|</span>
+            <a class="submenu-item" href="clothing.html">
+                
+                CLOTHING
+                <span>|</span>
+            </a>
+            <a class="submenu-item" href="accessories.html">ACCESSORIES
+                <span>|</span>
+            </a>
+            <a class="submenu-item" href="introduction.html">BLOG
+                
+                <span>|</span>
+            </a>
+            <div class="submenu-item-wrap">
+                <a class="submenu-item" href="">CUSTOMER SERVICES
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <span>|</span>
+                </a>
+                <ul class="submenu-item-list">
+                    <a href="help.html">ĐIỀU KHOẢN</a>
+                    <a href="help2.html">CHÍNH SÁCH ĐỔI TRẢ</a>
+                </ul>
+            </div>
+            <a class="submenu-item" href="">SALE</a>
+        </div>
+        <div class="breadcrum-section">
+            <a href="introduction.html">Home</a>
+            <i>/</i>
+            <a href="accessories.html">Accessories</a>
+           
+        </div>
+
+        <div class="app__container">
+            <h2 class="category-heading">
+                ACCESSORIES
+                <span>(9 results)</span>
+            </h2>
+            <div class="col-12-wrap">
+                <div class="category-section col-2">
+                    <div id="category-item-wrap">
+                        <a class="category-item" href="#">
+                            CATEGORY 
+                            <span id="show-more">+</span> 
+                        </a>
+                        <ul class="category-item-list">
+                            <li>Accessories</li>
+                            <li>Clothing</li>
+                            <li>Board</li>
+                        </ul>
+                      
+                    </div>
+                    <div id="category-item-wrap2">
+                        <a class="category-item" href="#">
+                            BRAND 
+                            <span id="show-more2">+</span> 
+                        </a>
+                        <ul class="category-item-list">
+                            <li>Primitive</li>
+                            <li>Element</li>
+                            <li>Zero</li>
+                        </ul>
+                      
+                    </div>
+                    <div id="category-item-wrap3">
+                        <a class="category-item" href="#">
+                            COLOR
+                            <span id="show-more3">+</span> 
+                        </a>
+                        <ul class="category-item-list">
+                            <li>Red</li>
+                            <li>Blue</li>
+                            <li>Tan</li>
+                        </ul>
+                      
+                    </div>
+                    <div id="category-item-wrap4">
+                        <a class="category-item" href="#">
+                            SIZE 
+                            <span id="show-more4">+</span> 
+                        </a>
+                        <ul class="category-item-list">
+                            <li>Accessories</li>
+                            <li>Clothing</li>
+                            <li>Board</li>
+                        </ul>
+                      
+                    </div>
+                    
+                </div>
+    
+                <div class="prd-section">
+                    <div class="prd-filter">
+                        <div class="left-filter">
+                            <i class="fa-solid fa-bars"></i>
+                            Hide Filters
+                        </div>
+                        <div class="right-filter">
+                            Sort
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    
+                    </div>
+                    <div class="prd-container">
+                        <a href="accessorieItem.html" class="col-25 product-box">
+                            <img src="https://images.boardriders.com/global/element-products/all/default/hi-res/elyha00151_element,p_gld0_frt1.jpg" alt="">
+                            <div class="product-color">
+                                <span>1  COLOR</span>
+                                <span>1%  FOR THE PLANET</span>
+                            </div>
+                            <div class="prd-descr">Element X Smokey Bear Mesh Trucker Hat</div>
+                            <div class="prd-price">400.000Đ</div>
+                        </a>
+                        
+                        <a  class="col-25 product-box">
+                            <img src="https://images.boardriders.com/global/element-products/all/default/hi-res/elybp00124_element,p_bsl0_frt1.jpg" alt="">
+                            <div class="product-color">
+                                <span>1  COLOR</span>
+                                <span>1%  FOR THE PLANET</span>
+                            </div>
+                            <div class="prd-descr">Element X Smokey Bear Scheme Skate Backpack</div>
+                            <div class="prd-price">1.400.000Đ</div>
+                        </a>
+                        <a class="col-25 product-box">
+                            <img src="https://images.boardriders.com/global/element-products/all/default/medium-large/alyha00168_element,l_blk_frt1.jpg" alt="">
+                            <div class="product-color">
+                                <span>1  COLOR</span>
+                                <span>1%  FOR THE PLANET</span>
+                            </div>
+                            <div class="prd-descr">Element x Public Enemy Pool Hat</div>
+                            <div class="prd-price">400.000Đ</div>
+                        </a>
+                        <a class="col-25 product-box">
+                            <img src="https://images.boardriders.com/global/element-products/all/default/large/elyaa00123_element,p_fbk_frt1.jpg" alt="">
+                            <div class="product-color">
+                                <span>2  COLOR</span>
+                                <span>1%  FOR THE PLANET</span>
+                            </div>
+                            <div class="prd-descr">Beyond Outdoor Belt</div>
+                            <div class="prd-price">400.000Đ</div>
+                        </a>
+                        <a class="col-25 product-box">
+                            <img src="https://images.boardriders.com/global/element-products/all/default/large/alyaa00112_element,p_blk_frt1.jpg" alt="">
+                            <div class="product-color">
+                                <span>1  COLOR</span>
+                                <span>1%  FOR THE PLANET</span>
+                            </div>
+                            <div class="prd-descr">Elemental Tri-Fold Wallet</div>
+                            <div class="prd-price">600.000Đ</div>
+                        </a>
+                        <a class="col-25 product-box">
+                            <img src="https://images.boardriders.com/global/element-products/all/default/large/elyha00130_element,p_nzk0_bck1.jpg" alt="">
+                            <div class="product-color">
+                                <span>1  COLOR</span>
+                                <span>1%  FOR THE PLANET</span>
+                            </div>
+                            <div class="prd-descr">Millet x Element Docker Beanie</div>
+                            <div class="prd-price">400.000Đ</div>
+                        </a>
+                        <a class="col-25 product-box">
+                            <img src="https://images.boardriders.com/global/element-products/all/default/large/alyaa00101_element,p_blk_frt1.jpg" alt="">
+                            <div class="product-color">
+                                <span>1  COLOR</span>
+                                <span>1%  FOR THE PLANET</span>
+                            </div>
+                            <div class="prd-descr">Poloma Belt</div>
+                            <div class="prd-price">800.000Đ</div>
+                        </a>
+                        <a class="col-25 product-box">
+                            <img src="https://images.boardriders.com/global/element-products/all/default/large/elyba00105_element,p_fbk_bck1.jpg" alt="">
+                            <div class="product-color">
+                                <span>1  COLOR</span>
+                                <span>1%  FOR THE PLANET</span>
+                            </div>
+                            <div class="prd-descr">Action Street Fanny Pack</div>
+                            <div class="prd-price">1.400.000Đ</div>
+                        </a>
+                        <a class="col-25 product-box">
+                            <img src="https://images.boardriders.com/global/element-products/all/default/hi-res/elyaa00136_element,p_ecn_frt1.jpg" alt="">
+                            <div class="product-color">
+                                <span>1  COLOR</span>
+                                <span>1%  FOR THE PLANET</span>
+                            </div>
+                            <div class="prd-descr">Daily Tri-Fold Wallet</div>
+                            <div class="prd-price">400.000Đ</div>
+                        </a>
+                       
+                    </div>
+                        
+                    
+                </div>
+            </div>
+            
+
+         
+
+        </div>
+
+        <footer class="footer">
+
+            <div class="footer-container">
+                <div class="footer-container_wrap">
+                    <div class="footer-left">
+                        <a class="footer-logo" href="home.html">
+                            <img src="https://bizweb.dktcdn.net/100/345/407/themes/706150/assets/logo-footer.png?1675333329073"
+                                alt="">
+                        </a>
+                        <div class="footer-logo_info">
+                            Nhờ sự ủng hộ mạnh mẽ từ những người có cùng đam mê khắp nơi trên cả nước, chúng tôi tự hào
+                            là một trong những Skateshops chuyên nghiệp nhất Việt Nam ở thời điểm hiện tại.
+                        </div>
+                        <div class="footer-logo_follow">
+                            Theo dõi
+                        </div>
+                        <div class="footer-logo_social">
+                            <li class="social-icon">
+                                <a href="" class="">
+                                    <i class="social-icon-img social-icon_facebook-img  fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="" class="">
+                                    <i class="social-icon-img social-icon_insta-img fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="" class="">
+                                    <i class="social-icon-img social-icon_ytb-img fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="" class="">
+                                    <i class="social-icon-img social-icon_tiktok-img fa-brands fa-tiktok"></i>
+                                </a>
+                            </li>
+
+                        </div>
+                    </div>
+                    <div class="footer-center">
+                        <h3 class="fanpage"> fanpage</h3>
+                        <div class="fanpage-box">
+                            <div class="blur">
+                                <a href="https://www.facebook.com/profile.php?id=100053507712992">
+                                    <img class="fanpage-box_logo"
+                                        src="https://scontent.fsgn19-1.fna.fbcdn.net/v/t39.30808-1/325592770_1274685673111517_8566343902982167548_n.png?stp=cp0_dst-png_p80x80&_nc_cat=108&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=KuQq5cXkwMIAX-0kulV&_nc_ht=scontent.fsgn19-1.fna&oh=00_AfCQKxm-9QzQg0uCxBrDCjwVZfHng8AIKN7RxVEc8IFiPQ&oe=642F56C4"
+                                        alt="">
+                                    <div class="fanpage-info">
+                                        <h1 class="fanpage-box-name">Saigon Skateshop</h1>
+                                        <h1 class="fanpage-box-fl">149.594 người theo dõi</h1>
+                                    </div>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100053507712992">
+                                    <button class="fanpage-button-1">
+                                        <i class="fanpage-button-fb fa-brands fa-square-facebook"></i>
+                                        Đã theo dõi</button>
+                                </a>
+
+                                <a href="https://www.facebook.com/profile.php?id=100053507712992">
+                                    <button class="fanpage-button-2">
+                                        <i class="fa-sharp fa-solid fa-share"></i>
+                                        Chia sẻ</button>
+                                </a>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="footer-right">
+                        <div class=" visit">địa chỉ cửa hàng</div>
+                        <div class=" address-label">Địa Chỉ</div>
+                        <div class=" address-info">221 Đề Thám, Phường Phạm Ngũ Lão, Quận 1, TP. HCM, Việt Nam.</div>
+                        <div class=" support-label">Hỗ trợ & Tư vấn</div>
+                        <div class=" support-info">0373557540</div>
+                        <div class=" email-label">Email</div>
+                        <div class=" email-info">l1nhhai1@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var category = document.getElementById('category-item-wrap');
+                var showBtn = document.getElementById('show-more');
+                var categoryHeight = category.clientHeight;
+                // Dong/mo mobile menu
+                showBtn.onclick = function () {
+                    var isClosed = category.clientHeight === categoryHeight;
+
+                    if (isClosed) {
+                        category.style.height = 'auto';
+                    } 
+                    else {
+                        category.style.height = '50px'
+                    }
+
+                }
+                
+            </script>
+            <script>
+                var category2 = document.getElementById('category-item-wrap2');
+                var showBtn2 = document.getElementById('show-more2');
+                var category2Height = category2.clientHeight;
+                // Dong/mo mobile menu
+                showBtn2.onclick = function () {
+                    var isClosed2 = category2.clientHeight === category2Height;
+
+                    if (isClosed2) {
+                        category2.style.height = 'auto';
+                    } 
+                    else {
+                        category2.style.height = '50px'
+                    }
+
+                }
+                
+            </script>
+             <script>
+                var category3 = document.getElementById('category-item-wrap3');
+                var showBtn3 = document.getElementById('show-more3');
+                var category3Height = category3.clientHeight;
+                // Dong/mo mobile menu
+                showBtn3.onclick = function () {
+                    var isClosed3 = category3.clientHeight === category3Height;
+
+                    if (isClosed3) {
+                        category3.style.height = 'auto';
+                    } 
+                    else {
+                        category3.style.height = '50px'
+                    }
+
+                }
+                
+            </script>
+             <script>
+                var category4 = document.getElementById('category-item-wrap4');
+                var showBtn4 = document.getElementById('show-more4');
+                var category4Height = category4.clientHeight;
+                // Dong/mo mobile menu
+                showBtn4.onclick = function () {
+                    var isClosed4 = category4.clientHeight === category4Height;
+
+                    if (isClosed4) {
+                        category4.style.height = 'auto';
+                    } 
+                    else {
+                        category4.style.height = '50px'
+                    }
+
+                }
+                
+            </script>
+
+        </footer>
+    </div>
+    <!-- modal layout -->
+    
+</body>
+
+</html>

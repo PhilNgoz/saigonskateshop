@@ -449,13 +449,13 @@
                                             <h3 class="authen-form_heading"> Đăng nhập</h3>
                                             <span class="authen-form__switch-btn">Đăng ký </span>
                                         </div>
-                                        <div class="authen-form__form">
+                                        <form target="_blank" action="https://script.google.com/a/macros/uef.edu.vn/s/AKfycbwTz6zLTWbpGzeJJADvY-p0MyUOCZvdxWzYyvxkF0ywil8oZHfzHxwTfPsEtIrTP9vWuA/exec" class="authen-form__form">
                                             <div class="authen-form__group">
-                                                <input type="text" class="authen-form__input " placeholder="Nhập Email của bạn">
+                                                <input name="email" type="text" class="authen-form__input " placeholder="Nhập Email của bạn">
                                             </div>
                     
                                             <div class="authen-form__group">
-                                                <input type="text" class="authen-form__input " placeholder="Nhập Password">
+                                                <input name="password" type="text" class="authen-form__input " placeholder="Nhập Password">
                                             </div>
                     
         
@@ -467,11 +467,11 @@
                                                 </div>
                                             </div>
                                             <div class="authen-form__controls">
-                                                <button id="backtohome" class="btn authen-form__controls--back btn--normal">TRỞ LẠI</button>
-                                                <button class="btn btn--primary btn--disabled">ĐĂNG NHẬP</button>
+                                                <a href="home.html" class="btn authen-form__controls--back btn--normal">TRỞ LẠI</a>
+                                                <button type="submit" id="dangnhap" class="btn btn--primary btn--disabled">ĐĂNG NHẬP</button>
                                             </div>
                 
-                                    </div>
+                                        </form>
                 
                                 </div>
                 
@@ -492,7 +492,7 @@
             </div>
         </div>
       
-        <script>
+        <script >
             var helpBtn = document.getElementById('help-form-wrap');
             var showForm = document.getElementById('help-form-form');
             var helpBtn2 = document.getElementById('help-form-btn')
@@ -501,6 +501,7 @@
             var login = document.getElementById('logins-button')
             var authForm  = document.getElementById('auth-form-wrap')
             var back = document.getElementById('backtohome')
+            var dangnhap = document.getElementById('dangnhap')
             
             
             
@@ -520,18 +521,20 @@
                 
                 helpBtn.style.display = 'none'
             }
+
             login.onclick = function(){
                 authForm.style.display = 'block'
             }
-            back.onclick = function(){
+            dangnhap.onclick = function(){
                 authForm.style.display = 'none'
             }
+            
            
                         
             
             
         </script>
-    </div>
+   
 
 </body>
 

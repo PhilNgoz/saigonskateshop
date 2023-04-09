@@ -349,10 +349,12 @@
                             Tiếp tục mua hàng 
                         </button>
                     </a>
+                    <a class="dat-sp" href="checkout.html">
+                        <button class="addto-cart-btn">
+                            Tiến hành đặt hàng
+                        </button>
+                    </a>
                     
-                    <button class="addto-cart-btn">
-                        Tiến hành đặt hàng
-                    </button>
                 </div>
             </div>
            
@@ -444,78 +446,7 @@
                     </div>
                 </div>
             </div>
-            <script>
-                var category = document.getElementById('category-item-wrap');
-                var showBtn = document.getElementById('show-more');
-                var categoryHeight = category.clientHeight;
-                // Dong/mo mobile menu
-                showBtn.onclick = function () {
-                    var isClosed = category.clientHeight === categoryHeight;
-
-                    if (isClosed) {
-                        category.style.height = 'auto';
-                    } 
-                    else {
-                        category.style.height = '50px'
-                    }
-
-                }
-                
-            </script>
-            <script>
-                var category2 = document.getElementById('category-item-wrap2');
-                var showBtn2 = document.getElementById('show-more2');
-                var category2Height = category2.clientHeight;
-                // Dong/mo mobile menu
-                showBtn2.onclick = function () {
-                    var isClosed2 = category2.clientHeight === category2Height;
-
-                    if (isClosed2) {
-                        category2.style.height = 'auto';
-                    } 
-                    else {
-                        category2.style.height = '50px'
-                    }
-
-                }
-                
-            </script>
-             <script>
-                var category3 = document.getElementById('category-item-wrap3');
-                var showBtn3 = document.getElementById('show-more3');
-                var category3Height = category3.clientHeight;
-                // Dong/mo mobile menu
-                showBtn3.onclick = function () {
-                    var isClosed3 = category3.clientHeight === category3Height;
-
-                    if (isClosed3) {
-                        category3.style.height = 'auto';
-                    } 
-                    else {
-                        category3.style.height = '50px'
-                    }
-
-                }
-                
-            </script>
-             <script>
-                var category4 = document.getElementById('category-item-wrap4');
-                var showBtn4 = document.getElementById('show-more4');
-                var category4Height = category4.clientHeight;
-                // Dong/mo mobile menu
-                showBtn4.onclick = function () {
-                    var isClosed4 = category4.clientHeight === category4Height;
-
-                    if (isClosed4) {
-                        category4.style.height = 'auto';
-                    } 
-                    else {
-                        category4.style.height = '50px'
-                    }
-
-                }
-                
-            </script>
+           
 
         </footer>
     </div>

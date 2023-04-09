@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIGON SKATESHOP</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div class="app app-checkout">
+       <div class="customer-infomation">
+            <div class="checkout-header">
+                <a href="home.html">Saigon Skateshop</a>
+                <div class="breadcrum-section checkout-breadcrum">
+                    <a href="home.html">Home</a>
+                    <i>/</i>
+                    <a href="clothing.html">Check out</a>
+                </div>
+                <div class="method-heading">Thanh toán bằng </div>
+                <div class="checkout-method">
+                    <a href="#" class="momo">
+                        <img src="https://th.bing.com/th/id/R.4bf764ead8fa9c867e785667c45359cc?rik=A1MlLgd%2baZOJDg&pid=ImgRaw&r=0" alt="">
+                    </a>
+                    <a href="#"  class="paypal">
+                        <img src="https://th.bing.com/th/id/R.4d090e9140a335b77f35350a16afbd40?rik=L4%2b7av3z1%2fTpRA&pid=ImgRaw&r=0" alt="">
+                    </a>
+                    <a href="#"  class="googlepay">
+                        <img src="https://www.srcu4u.com/creditunion/wp-content/uploads/2019/07/Google-Pay-Logo-01.png" alt="">
+                    </a>
+                </div>
+                <div class="method-heading">Hoặc </div>
+            </div>
+            <div class="checkout-form">
+                <form target="_blank" action="https://script.google.com/a/macros/uef.edu.vn/s/AKfycbz5BhL9qv4XeVhJ7TBeMw2o4vybOUobhS2Q5B57gVVjuKhv2_wTNbyA8ukmVVrz2_GqLw/exec">
+                    <h3>Địa chỉ giao hàng</h3>
+                    <div class="checkout-name">
+                        <input class="checkout-input checkout-first" name="ho_tendem"  placeholder="Họ và tên đệm" required type="text">
+                        <input class="checkout-input checkout-last" name="ten" placeholder="Tên" required type="text">
+                    </div>
+                    <input class="checkout-input spcf-add" name="diachi" required placeholder="Địa chỉ" type="text">
+                    <div class="checkout-address">
+                        <input class="checkout-input checkout-adress-item" name="thanhpho" required placeholder="Thành phố" type="text">
+                        <input class="checkout-input checkout-adress-item" name="quan_huyen" required placeholder="Quận/Huyện" type="text">
+                        <input class="checkout-input checkout-adress-item" name="zipcode" required placeholder="ZIP code" type="text">
+                    </div>
+                    <input class="checkout-input checkout-phone" name="sdt" required placeholder="Số điện thoại" type="text">
+                    <div class="logistic">
+                        <div class="ghn">
+                        <span>Giao hàng nhanh</span>
+                        <input name="giao_hang_nhanh" class="ghnn" type="checkbox" >
+                        </div>
+                        <div class="ghtk">
+                            <span>Giao hàng tiết kiệm</span>
+                        <input  name="giaohangtietkiem" class="ghtkk"  type="checkbox" >
+                        </div>
+                    </div>
+                    <button type="submit" class="confirm-paid" >Xác nhận thanh toán</button>
+                </form>
+            </div>
+       </div>
+       <div class="total-checkout">
+            <div class="total-checkout-product">
+                <img src="https://bizweb.dktcdn.net/thumb/compact/100/345/407/products/vm001-lo-suede-choco-brown-5.jpg?v=1665993646373" alt="">
+                <span>Last Resort Skateshoes 
+                    <p>x1</p>
+                </span>
+                
+                <p>890.000đ</p>
+            </div>
+            <div class="total-checkout-product">
+                <img src="https://bizweb.dktcdn.net/thumb/compact/100/345/407/products/002.jpg" alt="">
+                <span>Pentagon complete set
+                    <p>x1</p>
+                </span>
+                <p>2.800.000đ</p>
+            </div>
+            <div class="total-checkout-product">
+                <img src="https://bizweb.dktcdn.net/thumb/compact/100/345/407/products/33132506-850-k5-90s-dlk-standard-trucks-krux-3.jpg?v=1653985171283" alt="">
+                <span>Indipendent truck 139
+                    <p>x1</p>
+                </span>
+                
+                <p>800.000đ</p>
+            </div>
+            <div class="total-checkout-fee">
+                <span>Thành tiền</span>
+                <p>4.490.000đ</p>
+            </div>
+            <div class="total-checkout-fee">
+                <span>Phí vận chuyển</span>
+                <p>30.000đ</p>
+            </div>
+            <div class="total-checkout-fee">
+                <span>Tổng cộng</span>
+                <p>4.520    .000đ</p>
+            </div>
+       </div>
+      
+    </div>
+    <div id="auth-form-wrap-checkout">
+        <div class="modal">
+            <div class="modal__overlay">
+            </div>
+            <div class="modal__body"> 
+                             <div class="authen-form authen-form2">
+                                <div class="authen-form__container1">
+                                    <div class="checkout-heading-img">
+                                        <img src="//bizweb.dktcdn.net/100/345/407/themes/706150/assets/logo.png?1675333329073" alt="">
+                                    </div>
+                                    <div class="checkout-heading">
+                                        CÁM ƠN BẠN ĐÃ ỦNG HỘ SAIGON SKATESHOP!
+                                    </div>
+                                    <div class="checkout-content">
+                                        Đơn hàng của bạn đã được đặt thành công. Chúng tôi sẽ liên hệ để xác nhận và giao hàng sớm nhất có thể.
+                                    </div>
+                                    <a class="notifi-button" href="home.html">
+                                        <button>Tiếp tục mua hàng</button>
+                                    </a>
+                                </div>
+            
+                            </div>
+            
+                            
+                            
+                        
+                    </div>  
+        </div>
+    </div>
+   
+    <script>
+     var paid = document.querySelector('.confirm-paid')
+     var notifi = document.getElementById('auth-form-wrap-checkout')
+    paid.onclick = function(){
+        notifi.style.display = 'block'
+    }
+
+    
+        
+        
+        
+        
+
+    </script>
+</body>
+
+</html>

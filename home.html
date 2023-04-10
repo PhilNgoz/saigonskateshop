@@ -422,7 +422,7 @@
                     <h2 class="help-form-heading">Contact us
                         <i id="close-form" class="fa-solid fa-minus"></i>
                     </h2>
-                    <form id="help-form-control" target="_blank" method="GET" action="https://script.google.com/a/macros/uef.edu.vn/s/AKfycbxKEjWiAqT3iDV5aQqfM3wOjSsZ0r-grxN-vAEkt6J43wu8Wa3dHBBMCuWT3mkWeuVp5w/exec" >
+                    <form id="help-form-control" name="submit-to-google-sheet" onsubmit= "stepSetSinhVien();" action=""  >
                         <p class="control-form-heading">Email address</p>
                         <input id="form-contr" required name="email" type="email">
                         <p class="control-form-heading">Phone</p>
@@ -431,8 +431,14 @@
                         <input id="form-contr" required name="name" type="text">
                         <p class="control-form-heading">Questions</p>
                         <textarea data-garden-id="forms.textarea" data-garden-version="8.49.4" aria-invalid="false" id="7val-field_1.3.10--input" aria-labelledby="7val-field_1.3.10--label" aria-describedby="7val-field_1.3.10--hint" rows="3" name="question" required="" class="StyledTextInput-sc-k12n8x-0 StyledTextarea-sc-wxschl-0 jywVgl" ></textarea>
-                        <button type="submit" id="submit-form">SEND</button>
+                        <button type="submit" onsubmit="return stepSetSinhVien();" id="submit-form">SEND</button>
                     </form>
+                    <div id="help-success">
+                        <img src="https://clipartcraft.com/images/email-clipart-feedback-mail-5.png" alt="">
+                        <div class="help-success-heading">Bạn đã gửi ý kiến phản hồi thành công</div>
+                        <div class="help-success-content">Cám ơn bạn đã đóng góp ý kiến , nhân viên của chúng tôi sẽ liên hệ lại cho bạn ngay khi có thể ! </div>
+                        <button class="help-close-button">Đóng</button>
+                    </div>
 
                 </div>
             </div>
@@ -517,10 +523,10 @@
                 helpBtn.style.display = 'none'
             }
            
-            submit.onclick = function(){
-                
-                helpBtn.style.display = 'none'
-            }
+                // submit.onclick = function(){
+                    
+                //     helpBtn.style.display = 'none'
+                // }
 
             login.onclick = function(){
                 authForm.style.display = 'block'
@@ -535,7 +541,9 @@
             
         </script>
    
-
+   <script type="text/javascript" src="assets/js/main1.js"></script>
+   <script src="assets/js/jquery-google-sheet-to-json.min.js"></script>
+   <script src="assets/js/jquery-3.3.1.min.js"></script>
 </body>
 
-</html>
+</html> 

@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    
+
+   
+    
+    
 </head>
 
 <body>
@@ -42,10 +47,10 @@
                 <div class="method-heading">Hoặc </div>
             </div>
             <div class="checkout-form">
-                <form target="_blank" action="https://script.google.com/a/macros/uef.edu.vn/s/AKfycbz5BhL9qv4XeVhJ7TBeMw2o4vybOUobhS2Q5B57gVVjuKhv2_wTNbyA8ukmVVrz2_GqLw/exec">
+                <form name="submit-to-google-sheet"  onsubmit= "stepSetSinhVien();" action=""  >
                     <h3>Địa chỉ giao hàng</h3>
                     <div class="checkout-name">
-                        <input class="checkout-input checkout-first" name="ho_tendem"  placeholder="Họ và tên đệm" required type="text">
+                        <input class="checkout-input checkout-first" name="ho_tendem"  placeholder="Họ và tên đệm" required="required" type="text">
                         <input class="checkout-input checkout-last" name="ten" placeholder="Tên" required type="text">
                     </div>
                     <input class="checkout-input spcf-add" name="diachi" required placeholder="Địa chỉ" type="text">
@@ -65,7 +70,7 @@
                         <input  name="giaohangtietkiem" class="ghtkk"  type="checkbox" >
                         </div>
                     </div>
-                    <button type="submit" class="confirm-paid" >Xác nhận thanh toán</button>
+                    <button type="submit" onsubmit="return stepSetSinhVien();"  class="confirm-paid" >Xác nhận thanh toán</button>
                 </form>
             </div>
        </div>
@@ -137,21 +142,11 @@
                     </div>  
         </div>
     </div>
-   
-    <script>
-     var paid = document.querySelector('.confirm-paid')
-     var notifi = document.getElementById('auth-form-wrap-checkout')
-    paid.onclick = function(){
-        notifi.style.display = 'block'
-    }
-
-    
         
-        
-        
-        
-
-    </script>
+  
+    <script type="text/javascript" src="assets/js/do_get_info.js"></script>
+    <script src="assets/js/jquery-google-sheet-to-json.min.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
 </body>
 
 </html>

@@ -286,6 +286,7 @@ list-style: none;
     position: fixed;
     bottom: 15px;
     right: 20px;
+    
 
 }
 #help-form-wrap2{
@@ -353,12 +354,7 @@ list-style: none;
    
     height: fit-content;
 }
-#help-form-control{
-    width: 100%;
-    padding: 12px 16px 60px 16px;
-    position: relative;
-    
-}
+
 
 .control-form-heading{
     font-size: 14px;
